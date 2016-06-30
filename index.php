@@ -352,7 +352,7 @@
 		
 		$('#indexform').valid();
 		if ($('#indexform').valid()) {
-			if($('#laptop_size').val()=="" && $('#server_size').val()=="" && $('#server_size').val()==""){
+			if($('#laptop_size').val()=="" && $('#server_size').val()=="" && $('#apple_size').val()==""){
 		$('#confirmation').modal('show');
 		return false;
 		}else{
